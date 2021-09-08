@@ -1,3 +1,15 @@
 Header header
 geometry_msgs/Vector3 position
-uint8 flight_mode
+geometry_msgs/Vector3 velocity
+geometry_msgs/Vector3 acceleration
+geometry_msgs/Vector3 jerk
+float64 yaw
+float64 dyaw
+bool power_motors
+bool reset_xy_int
+bool reset_z_int
+int8 xy_mode
+int8 z_mode
+int8 MODE_POS=0
+int8 MODE_VEL=1
+int8 MODE_ACCEL=2
